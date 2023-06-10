@@ -4,7 +4,7 @@ import Capital from './Capital'
 import Flag from './Flag'
 import Fail from './Fail'
 
-export const QuizBox = ({countries}) => {
+const QuizBox = ({countries}) => {
     const [options, setOptions] = useState([])
     const [correctOption, setCorrectOption] = useState({})
     const [selectedOption, setSelectedOption] = useState('')
@@ -130,3 +130,5 @@ export const QuizBox = ({countries}) => {
         </>
     )
 }
+
+export default QuizBox

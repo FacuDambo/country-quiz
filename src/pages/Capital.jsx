@@ -5,7 +5,7 @@ const Capital = ({nextButton, correctOption, options, selectedOption, clickedIte
         <div className={`${nextButton ? 'expanded' : ''} optionsBox`}>
             <h4>{correctOption?.capital} is the capital of...</h4>
             <div className='optionsContainer'>
-                {options.sort((a, b) => a.name.common.localeCompare(b.name.common)).map((option, index) => (
+                {options?.sort((a, b) => a.name.common.localeCompare(b.name.common)).map((option, index) => (
                     <button 
                     className={`${correctOption?.name?.common === selectedOption && index === clickedItem ? 'correct' : ''} ${isSelected ? 'disabled' : ''} optionButton ${index === clickedItem && correctOption?.name?.common !== selectedOption && selectedOption !== "" ? 'incorrect' : ''}`} 
                     key={index} 

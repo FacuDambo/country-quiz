@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import styles from '<lpws>/styles/Home.module.css'
-import { QuizBox } from './QuizBox'
+import QuizBox from './QuizBox'
 import { useState, useEffect } from 'react'
 import axios from 'axios'
 

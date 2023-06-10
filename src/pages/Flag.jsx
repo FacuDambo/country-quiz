@@ -9,10 +9,10 @@ const Flag = ({nextButton, correctOption, options, selectedOption, clickedItem, 
 
     return (
         <div className={`${nextButton ? 'expanded' : ''} optionsBox`}>
-            <Image alt="flag" src={correctOption.flags.svg} width={84} height={54} className='flagImg'></Image>
+            <Image alt="flag" src={correctOption?.flags.svg} width={84} height={54} className='flagImg'></Image>
             <h4>Which country does this flag belong to?</h4>
             <div className='optionsContainer'>
-                {options.sort((a, b) => a.name.common.localeCompare(b.name.common)).map((option, index) => (
+                {options?.sort((a, b) => a.name.common.localeCompare(b.name.common)).map((option, index) => (
                     <button 
                     className={`${correctOption?.name?.common === selectedOption && index === clickedItem ? 'correct' : selectedOption === "" ? "" : ''} ${isSelected ? 'disabled' : ''} optionButton ${index === clickedItem && correctOption?.name?.common !== selectedOption && selectedOption !== "" ? 'incorrect' : ''}`} 
                     key={index} 
