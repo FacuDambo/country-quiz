@@ -10,11 +10,11 @@
 <br><br>
 <h2>Screenshots:</h2><br>
 
-<img src="https://i.postimg.cc/zDw1Kfvv/Create-Next-App.png" alt="project-screenshot" width="350" height="auto">
-<img src="https://i.postimg.cc/6QDNL2C2/Create-Next-App-1.png" alt="project-screenshot" width="350" height="auto">
-<img src="https://i.postimg.cc/1tw1WmKW/Create-Next-App-2.png" alt="project-screenshot" width="350" height="auto">
-<img src="https://i.postimg.cc/HnmDRqZT/Create-Next-App-3.png" alt="project-screenshot" width="350" height="auto">
-<img src="https://i.postimg.cc/j2h0bMmP/Create-Next-App-4.png" alt="project-screenshot" width="350" height="auto">
+<img src="https://i.postimg.cc/zDw1Kfvv/Create-Next-App.png" alt="project-screenshot" width="750" height="auto">
+<img src="https://i.postimg.cc/6QDNL2C2/Create-Next-App-1.png" alt="project-screenshot" width="750" height="auto">
+<img src="https://i.postimg.cc/1tw1WmKW/Create-Next-App-2.png" alt="project-screenshot" width="750" height="auto">
+<img src="https://i.postimg.cc/HnmDRqZT/Create-Next-App-3.png" alt="project-screenshot" width="750" height="auto">
+<img src="https://i.postimg.cc/j2h0bMmP/Create-Next-App-4.png" alt="project-screenshot" width="750" height="auto">
 
 
 <br><br>
@@ -52,3 +52,4 @@
 <h2>🙌🏻 Agradecimientos</h2><br>
 
 *   Los datos de los países utilizados en este juego provienen de [REST Countries API](https://restcountries.com/), que proporciona información actualizada sobre países de todo el mundo.
+*   El desafío, el diseño y la idea del proyecto fue proporcionado por [DevChallenges](https://devchallenges.io/), muy agradecido por la oportunidad y la idea.
