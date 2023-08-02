@@ -34,6 +34,7 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         <QuizBox countries={countries}></QuizBox>
+        <p className='thanks'>Thanks to <a target='_blank' href='https://devchallenges.io/'>DevChallenges</a> for the design and inspiration for this project!</p>
       </main>
     </>
   )

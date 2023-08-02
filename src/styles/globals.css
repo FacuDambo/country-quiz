@@ -3,7 +3,7 @@
   --border-radius: 12px;
   --font-mono: 'Poppins', sans-serif;
 
-  --foreground-rgb: 0, 0, 0;
+  --foreground-rgb: 255, 255, 255;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 
@@ -103,6 +103,10 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.thanks {
+  display: none;
 }
 
 .material-symbols-outlined {
@@ -348,9 +352,8 @@ button.tryAgain:hover {
 
 /* MEDIA QUERIES */
 @media (max-width: 361px) {
-  .questionBox {
-    min-width: 340px;
-    width: 340px;
+  .Home_main__EtNt2 {
+    height: 120vh;
   }
 
   .optionsBox {
@@ -359,10 +362,6 @@ button.tryAgain:hover {
 
   .mainImage {
     display: none;
-  }
-
-  .optionButton {
-    width: 100%;
   }
 
   p.nextQuestionText {
@@ -374,6 +373,70 @@ button.tryAgain:hover {
     left: 50%;
     transform: translate(-50%, 0);
     width: 100%;
+  }
+}
+
+@media (max-width: 600px){
+  main.Home_main__EtNt2 {
+    padding-top: 100px;
+    justify-content: unset;
+  }
+  
+  .questionBox {
+    min-width: 340px;
+    width: 340px;
+    position: static;
+  }
+
+  .mainImage {
+    top: unset;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .optionsBox {
+    padding: 48px 32px 68px;
+  }
+
+  .boxTitle {
+    top: 30px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, 0%);
+    width: 100%;
+    text-align: center;
+  }
+
+  .optionButton {
+    width: 100%;
+    gap: 20px;
+  }
+
+  button.incorrect p, button.correct p {
+    max-width: 160px;
+  }
+}
+
+@media (max-height: 768px) {
+  .mainImage {
+    display: none;
+  }
+
+  main.Home_main__EtNt2 {
+    min-height: 140vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  .thanks {
+    position: absolute;
+    display: block;
+    bottom: 5px;
+    left: 5px;
+    font-size: 9px;
+    font-style: italic;
   }
 }
 
